@@ -21,6 +21,7 @@ h5 {
 }
 p {
     font-family: 'Abel', sans-serif;
+
 }
 body {
     background-color: #E6E6E6;
@@ -29,13 +30,14 @@ body {
 }
 .container {
     margin: 0 auto;
+    max-width: 80%;
 }
 
 .codeup-design-text>p {
     font-size: 3.333em;
 }
 
-@media (min-width: 576px) and (max-width: ) {
+@media (min-width: 0px) and (max-width: 576px){
 
 }
 
@@ -44,7 +46,10 @@ body {
 }
 
 @media (min-width: 992px) {
-
+    .codeup-design-text{
+        margin-left: 0;
+        margin-right: auto;
+    }
 }
 
 @media (min-width: 1200px) {
