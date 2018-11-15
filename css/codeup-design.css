@@ -48,9 +48,9 @@ body {
 }
 .featured-project>li {
     padding: .5em;
-    margin: auto;
-    max-height: auto;
-    max-width: 50%;
+}
+.featured-project>p {
+    font-size: small;
 }
 @media (min-width: 0px) and (max-width: 576px){
     .container {
@@ -64,10 +64,7 @@ body {
 
 @media (min-width: 768px) {
     .container {
-        max-width: 750px;
-    }
-    .border-top {
-        max-width: 80%!important;
+        max-width: 765px;
     }
 }
 
@@ -127,4 +124,12 @@ body {
 .lHS {
     text-align: center;
     line-height: 1.25em;
+}
+
+.content-1,.content-2,.content-3,.content-4 {
+    max-width: 260px;!important;
+}
+.img-thumbnail {
+    height: 140px;
+    width: 250px;
 }
