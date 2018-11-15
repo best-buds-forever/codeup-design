@@ -43,16 +43,31 @@ body {
 .codeup-design-text>p {
     font-size: 2.333em;
 }
+.border-top {
+    border-top: 2px solid #cccccc!important;
+}
+.featured-project>li {
+    padding: .5em;
+    margin: auto;
+    max-height: auto;
+    max-width: 50%;
+}
 @media (min-width: 0px) and (max-width: 576px){
     .container {
         min-width: 350px;
         max-width: 450px;
+    }
+    .border-top {
+        border-top: 0px solid #cccccc!important;
     }
 }
 
 @media (min-width: 768px) {
     .container {
         max-width: 750px;
+    }
+    .border-top {
+        max-width: 80%!important;
     }
 }
 
@@ -95,4 +110,21 @@ body {
 .ddsh {
     width: 105px;
     height: 105px;
+}
+.lastPhotos {
+    width: 50px;
+    height: 50px;
+}
+.list-group-item {
+    border: none!important;
+    background-color: transparent!important;
+}
+.badges {
+    width: 18px;
+    height: 18px;
+}
+
+.lHS {
+    text-align: center;
+    line-height: 1.25em;
 }
