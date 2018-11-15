@@ -24,8 +24,17 @@ span,p {
     margin: auto;
     padding: auto;
     text-align: center;
-
 }
+
+.bg-white {
+    height: 50px;
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    top: 74px;
+    left: 0;
+}
+
 body {
     background-color: #E6E6E6;
     margin: 0 auto;
