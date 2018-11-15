@@ -19,8 +19,11 @@ h4 {
 h5 {
     font-size: 2.333em;
 }
-p {
+span,p {
     font-family: 'Abel', sans-serif;
+    margin: auto;
+    padding: auto;
+    text-align: center;
 
 }
 body {
@@ -28,30 +31,31 @@ body {
     margin: 0 auto;
     padding: 0;
 }
-.container {
-    margin: 0 auto;
-    max-width: 80%;
-}
-
 .codeup-design-text>p {
-    font-size: 3.333em;
+    font-size: 2.333em;
 }
 
 @media (min-width: 0px) and (max-width: 576px){
-
+    .container {
+        min-width: 300px;
+        max-width: 450px;
+    }
 }
 
 @media (min-width: 768px) {
-
+    .container {
+        max-width: 700px;
+    }
 }
 
 @media (min-width: 992px) {
-    .codeup-design-text{
-        margin-left: 0;
-        margin-right: auto;
+    .container {
+        max-width: 900px;
     }
 }
 
 @media (min-width: 1200px) {
-
+    .container {
+        max-width: 1100px;
+    }
 }
