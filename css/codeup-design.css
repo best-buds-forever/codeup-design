@@ -65,6 +65,27 @@ span,p {
 .border-top {
     border-top: 2px solid #cccccc!important;
 }
+
+main {
+    margin: 0 auto;
+}
+
+.the-last-column {
+    padding: 0;
+    min-width: 200px;
+    max-width: 200px;
+}
+
+.featured-project {
+
+    max-width: 520px;
+}
+
+.selected-work {
+
+    max-width: 520px;
+}
+
 .featured-project>li {
     padding: .5em;
 }
@@ -90,6 +111,10 @@ span,p {
 @media (min-width: 992px) {
     .container {
         max-width: 950px;
+    }
+
+    main {
+        max-width: 735px;
     }
 }
 
