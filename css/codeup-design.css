@@ -1,5 +1,13 @@
+:root {
+
+}
 * {
     box-sizing: border-box;
+}
+body {
+    background-color: #E6E6E6;
+    margin: 0;
+    padding: 0;
 }
 h1,h2,h3,h4,h5,h6 {
     font-family: 'Anton', sans-serif;
@@ -28,17 +36,28 @@ span,p {
     padding: auto;
     text-align: center;
 }
+.bg-red {
+    background-color: #E6563B;
+}
+
+.bg-green {
+    background-color: #7CB06C;
+}
+
+.bg-teal {
+    background-color: #00ABA9;
+}
+
+.bg-orange {
+    background-color: #EB9D3A;
+}
 .bg-white {
     height: 70px;
     width: 100%;
     z-index: -1;
     position: absolute;
     left: 0;
-}
-body {
-    background-color: #E6E6E6;
-    margin: 0 auto;
-    padding: 0;
+    right:0;
 }
 .codeup-design-text>p {
     font-size: 2.333em;
@@ -52,6 +71,7 @@ body {
 .featured-project>p {
     font-size: small;
 }
+
 @media (min-width: 0px) and (max-width: 576px){
     .container {
         min-width: 350px;
@@ -61,7 +81,6 @@ body {
         border-top: 0px solid #cccccc!important;
     }
 }
-
 @media (min-width: 768px) {
     .container {
         max-width: 765px;
@@ -81,32 +100,13 @@ body {
 }
 .lH {
     line-height: 4em;
-    color: #F0F0F0;
 }
 
-.border-3 {
+.design,.develop,.support,.host {
+    width: 105px!important;
+    height: 105px!important;
     border: 5px solid #F0F0F0;
-}
-
-.bg-red {
-    background-color: #E6563B;
-}
-
-.bg-green {
-    background-color: #7CB06C;
-}
-
-.bg-teal {
-    background-color: #00ABA9;
-}
-
-.bg-orange {
-    background-color: #EB9D3A;
-}
-
-.ddsh {
-    width: 105px;
-    height: 105px;
+    color: #F0F0F0;
 }
 .lastPhotos {
     width: 50px;
